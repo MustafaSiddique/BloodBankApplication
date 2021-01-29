@@ -23,7 +23,6 @@
 		17581B6C24080C7300E67722 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17581B6B24080C7300E67722 /* ChatMessageCell.swift */; };
 		1770E21D24032B820084985E /* NewMessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770E21C24032B820084985E /* NewMessagesTableViewCell.swift */; };
 		1770E21F240340200084985E /* ChatLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770E21E240340200084985E /* ChatLogsViewController.swift */; };
-		17812D1D24127E37009505D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17812D1C24127E37009505D6 /* GoogleService-Info.plist */; };
 		179AEC7D2403FEDA00827377 /* MessagesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179AEC7C2403FEDA00827377 /* MessagesClass.swift */; };
 		17A20DC023EE13AF0052B7BA /* AddRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A20DBF23EE13AF0052B7BA /* AddRequest.swift */; };
 		17A20DC223EE15AB0052B7BA /* RequestBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A20DC123EE15AB0052B7BA /* RequestBloodViewController.swift */; };
@@ -47,6 +46,7 @@
 		17F71F7923E0E7C700E3C85F /* DiceaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F71F7823E0E7C700E3C85F /* DiceaseTableViewCell.swift */; };
 		17FCD61D23E7910E00F2356E /* ImageViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCD61C23E7910E00F2356E /* ImageViewDesign.swift */; };
 		1AAC1F60E5EE0ACFE1D10838 /* Pods_BloodBankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996A317A5530382DB7185D7E /* Pods_BloodBankApp.framework */; };
+		452A12D025AE225F00915D0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 452A12CF25AE225E00915D0E /* GoogleService-Info.plist */; };
 		EF8C555623E8D454002BD190 /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C555523E8D454002BD190 /* CustomLoader.swift */; };
 		EF8C555823E8D471002BD190 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF8C555723E8D471002BD190 /* demo.gif */; };
 /* End PBXBuildFile section */
@@ -70,7 +70,6 @@
 		17581B6B24080C7300E67722 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		1770E21C24032B820084985E /* NewMessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessagesTableViewCell.swift; sourceTree = "<group>"; };
 		1770E21E240340200084985E /* ChatLogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogsViewController.swift; sourceTree = "<group>"; };
-		17812D1C24127E37009505D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		179AEC7C2403FEDA00827377 /* MessagesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesClass.swift; sourceTree = "<group>"; };
 		17A20DBF23EE13AF0052B7BA /* AddRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRequest.swift; sourceTree = "<group>"; };
 		17A20DC123EE15AB0052B7BA /* RequestBloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBloodViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		17DC9B8B240FF8B0008FA88A /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		17F71F7823E0E7C700E3C85F /* DiceaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceaseTableViewCell.swift; sourceTree = "<group>"; };
 		17FCD61C23E7910E00F2356E /* ImageViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewDesign.swift; sourceTree = "<group>"; };
+		452A12CF25AE225E00915D0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E7EE3430F8823853F338AC7 /* Pods-BloodBankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankApp.release.xcconfig"; path = "Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp.release.xcconfig"; sourceTree = "<group>"; };
 		922D4CB92D150D485FBF420C /* Pods-BloodBankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankApp.debug.xcconfig"; path = "Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp.debug.xcconfig"; sourceTree = "<group>"; };
 		996A317A5530382DB7185D7E /* Pods_BloodBankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,8 +141,8 @@
 				1752624D23D1F52600A60EEE /* Helping Files */,
 				1746A20323CCCA0000FAB595 /* Assets.xcassets */,
 				1746A20523CCCA0000FAB595 /* LaunchScreen.storyboard */,
-				17812D1C24127E37009505D6 /* GoogleService-Info.plist */,
 				1746A20823CCCA0000FAB595 /* Info.plist */,
+				452A12CF25AE225E00915D0E /* GoogleService-Info.plist */,
 				EF8C555723E8D471002BD190 /* demo.gif */,
 			);
 			path = BloodBankApp;
@@ -450,7 +450,7 @@
 			files = (
 				1746A20723CCCA0000FAB595 /* LaunchScreen.storyboard in Resources */,
 				EF8C555823E8D471002BD190 /* demo.gif in Resources */,
-				17812D1D24127E37009505D6 /* GoogleService-Info.plist in Resources */,
+				452A12D025AE225F00915D0E /* GoogleService-Info.plist in Resources */,
 				1746A20423CCCA0000FAB595 /* Assets.xcassets in Resources */,
 				1746A20223CCC9EF00FAB595 /* Main.storyboard in Resources */,
 			);

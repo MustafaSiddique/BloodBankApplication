@@ -5,6 +5,9 @@
 //  Created by Mustafa Siddique on 1/14/20.
 //  Copyright © 2020 Mustafa Siddique. All rights reserved.
 //
+//THGIS IS THE MAIN FILE CONTAINS DATABASE LOGOCS AND ETC....
+
+
 
 import Foundation
 import Firebase
